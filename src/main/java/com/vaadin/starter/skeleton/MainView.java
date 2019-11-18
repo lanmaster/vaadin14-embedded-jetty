@@ -10,7 +10,7 @@ import com.vaadin.flow.server.PWA;
  * The main view contains a button and a click listener.
  */
 @Route("")
-// Commented to show favicon.ico
+// If you want to view your favicon.ico then comment @PWA annotation
 //@PWA(name = "Project Base for Vaadin", shortName = "Project Base")
 public class MainView extends VerticalLayout {
 
